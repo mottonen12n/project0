@@ -7,7 +7,7 @@ import scala.io.BufferedSource
 object Pokedex  {
     def main(args: Array[String]){
 
-        val fileName = "C:/Users/Work/Project0/pokedex.csv"
+        val fileName = "C:/Users/Work/Project0/pokedex_test.csv"
         var bufferedSource:BufferedSource = null
 
         try{
@@ -51,7 +51,8 @@ object Pokedex  {
               "(1) Search by Name\n" +
               "(2) Search by Number\n" +
               "(3) Search by Type\n" +
-              "(4) Set a Pokemon to Caught\n" +
+              "(4) Catch/Uncatch a Pokemon\n" +
+              "(5) Show Caught Pokemon\n" +
               "(0) Exit Pokedex")
             try {
                 selection = readInt()
