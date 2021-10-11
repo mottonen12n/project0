@@ -1,0 +1,308 @@
+[0m2021.10.11 11:02:38 INFO  Started: Metals version 0.10.7 in workspace 'C:\Users\Work\Project0\project0' for client Visual Studio Code 1.61.0.[0m
+[0m2021.10.11 11:02:39 INFO  time: initialize in 0.59s[0m
+[0m2021.10.11 11:02:40 WARN  Build server is not auto-connectable.[0m
+[0m2021.10.11 11:02:43 INFO  running 'C:\Program Files\Java\jre1.8.0_301\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\Work\AppData\Local\Temp\metals4001223428662471969\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2021.10.11 11:02:53 INFO  [info] Loading settings for project project0-build-build from metals.sbt ...[0m
+[0m2021.10.11 11:02:53 INFO  [info] Loading project definition from C:\Users\Work\Project0\project0\project\project[0m
+[0m2021.10.11 11:02:53 INFO  [info] Updating ProjectRef(uri("file:/C:/Users/Work/Project0/project0/project/project/"), "project0-build-build")...[0m
+[0m2021.10.11 11:02:55 INFO  [info] Done updating.[0m
+[0m2021.10.11 11:02:57 INFO  [info] Loading settings for project project0-build from metals.sbt ...[0m
+[0m2021.10.11 11:02:57 INFO  [info] Loading project definition from C:\Users\Work\Project0\project0\project[0m
+[0m2021.10.11 11:02:57 INFO  [info] Updating ProjectRef(uri("file:/C:/Users/Work/Project0/project0/project/"), "project0-build")...[0m
+[0m2021.10.11 11:02:59 INFO  [info] Done updating.[0m
+[0m2021.10.11 11:03:00 INFO  [success] Generated .bloop\project0-build.json[0m
+[0m2021.10.11 11:03:00 INFO  [success] Total time: 3 s, completed Oct 11, 2021 11:03:01 AM[0m
+[0m2021.10.11 11:03:02 INFO  [info] Loading settings for project root from build.sbt ...[0m
+[0m2021.10.11 11:03:02 INFO  [info] Set current project to project0 (in build file:/C:/Users/Work/Project0/project0/)[0m
+[0m2021.10.11 11:03:02 INFO  [info] Updating ...[0m
+[0m2021.10.11 11:03:02 INFO  [info] Done updating.[0m
+[0m2021.10.11 11:03:02 INFO  [success] Generated .bloop\root-test.json[0m
+[0m2021.10.11 11:03:02 INFO  [success] Generated .bloop\root.json[0m
+[0m2021.10.11 11:03:02 INFO  [success] Total time: 0 s, completed Oct 11, 2021 11:03:03 AM[0m
+[0m2021.10.11 11:03:03 INFO  time: ran 'sbt bloopInstall' in 20s[0m
+[0m2021.10.11 11:03:03 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 37927'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading 2 projects from 'c:\Users\Work\Project0\project0\.bloop'...
+[0m[32m[D][0m Loading project from 'c:\Users\Work\Project0\project0\.bloop\root.json'
+[0m[32m[D][0m Loading project from 'c:\Users\Work\Project0\project0\.bloop\root-test.json'
+[0m[32m[D][0m Missing analysis file for project 'root'
+[0m[32m[D][0m Missing analysis file for project 'root-test'
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:37927...
+The server is listening for incoming connections at tcp://127.0.0.1:37927...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.11 11:03:16 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Work\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.11 11:03:17 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 17323'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:17323...
+The server is listening for incoming connections at tcp://127.0.0.1:17323...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.11 11:03:18 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Work\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.11 11:03:18 INFO  time: Connected to build server in 15s[0m
+[0m2021.10.11 11:03:18 INFO  Connected to Build server: Bloop v1.4.9[0m
+[0m2021.10.11 11:03:19 INFO  time: Imported build in 0.94s[0m
+[0m2021.10.11 11:03:28 INFO  time: indexed workspace in 8.53s[0m
+[0m2021.10.11 11:03:29 INFO  no build target: using presentation compiler with only scala-library: 2.12.8[0m
+[0m2021.10.11 11:04:55 INFO  compiling root (2 scala sources)[0m
+[0m2021.10.11 11:05:09 INFO  time: compiled root in 14s[0m
+something's wrong: no file:///C:/Users/Work/Project0/project0/src/main/scala/pokedex/pokedexmain.scala in Array[String]RangePosition(file:///C:/Users/Work/Project0/project0/src/main/scala/pokedex/pokedexmain.scala, 57, 57, 70)
+something's wrong: no file:///C:/Users/Work/Project0/project0/src/main/scala/pokedex/pokedexmain.scala in Array[String]RangePosition(file:///C:/Users/Work/Project0/project0/src/main/scala/pokedex/pokedexmain.scala, 57, 57, 70)
+Oct 11, 2021 11:30:22 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 486
+Oct 11, 2021 11:30:22 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 488
+[0m2021.10.11 11:33:48 WARN  unsupported Scala 2.12.7[0m
+[0m2021.10.11 11:33:48 WARN  unsupported Scala 2.12.7[0m
+[0m2021.10.11 11:33:49 INFO  compiling project0-build (1 scala source)[0m
+[0m2021.10.11 11:33:57 WARN  unsupported Scala 2.12.7[0m
+[0m2021.10.11 11:34:00 WARN  unsupported Scala 2.12.7[0m
+[0m2021.10.11 11:34:00 WARN  unsupported Scala 2.12.7[0m
+[0m2021.10.11 11:34:04 WARN  unsupported Scala 2.12.7[0m
+[0m2021.10.11 11:34:05 WARN  unsupported Scala 2.12.7[0m
+[0m2021.10.11 11:34:10 INFO  time: compiled project0-build in 21s[0m
+[0m2021.10.11 11:34:15 WARN  unsupported Scala 2.12.7[0m
+Oct 11, 2021 11:34:15 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 833
+[0m2021.10.11 11:34:15 WARN  unsupported Scala 2.12.7[0m
+[0m2021.10.11 11:34:25 WARN  unsupported Scala 2.12.7[0m
+Oct 11, 2021 11:34:25 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 839
+[0m2021.10.11 11:34:25 WARN  unsupported Scala 2.12.7[0m
+[0m2021.10.11 11:34:25 WARN  unsupported Scala 2.12.7[0m
+[0m2021.10.11 11:34:27 WARN  unsupported Scala 2.12.7[0m
+[0m2021.10.11 11:34:30 WARN  unsupported Scala 2.12.7[0m
+[0m2021.10.11 11:34:37 WARN  unsupported Scala 2.12.7[0m
+[0m2021.10.11 11:34:38 WARN  unsupported Scala 2.12.7[0m
+[0m2021.10.11 11:34:41 WARN  unsupported Scala 2.12.7[0m
+[0m2021.10.11 11:34:46 WARN  unsupported Scala 2.12.7[0m
+[0m2021.10.11 11:34:46 WARN  unsupported Scala 2.12.7[0m
+[0m2021.10.11 11:34:55 WARN  unsupported Scala 2.12.7[0m
+[0m2021.10.11 11:34:56 WARN  unsupported Scala 2.12.7[0m
+[0m2021.10.11 11:34:56 WARN  unsupported Scala 2.12.7[0m
+[0m2021.10.11 11:35:04 WARN  unsupported Scala 2.12.7[0m
+[0m2021.10.11 11:35:05 WARN  unsupported Scala 2.12.7[0m
+[0m2021.10.11 11:35:06 WARN  unsupported Scala 2.12.7[0m
+[0m2021.10.11 11:35:06 WARN  unsupported Scala 2.12.7[0m
+[0m2021.10.11 11:35:12 WARN  unsupported Scala 2.12.7[0m
+[0m2021.10.11 11:35:20 WARN  unsupported Scala 2.12.7[0m
+[0m2021.10.11 11:35:22 WARN  unsupported Scala 2.12.7[0m
+[0m2021.10.11 11:35:26 WARN  unsupported Scala 2.12.7[0m
+[0m2021.10.11 11:35:39 WARN  unsupported Scala 2.12.7[0m
+[0m2021.10.11 11:35:39 WARN  unsupported Scala 2.12.7[0m
+[0m2021.10.11 11:35:48 INFO  running 'C:\Program Files\Java\jre1.8.0_301\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\Work\AppData\Local\Temp\metals4399361133188835457\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2021.10.11 11:35:50 WARN  unsupported Scala 2.12.7[0m
+[0m2021.10.11 11:35:52 INFO  [info] Loading settings for project project0-build-build from metals.sbt ...[0m
+[0m2021.10.11 11:35:52 INFO  [info] Loading project definition from C:\Users\Work\Project0\project0\project\project[0m
+[0m2021.10.11 11:35:54 INFO  [info] Loading settings for project project0-build from metals.sbt ...[0m
+[0m2021.10.11 11:35:54 INFO  [info] Loading project definition from C:\Users\Work\Project0\project0\project[0m
+[0m2021.10.11 11:35:57 INFO  [success] Generated .bloop\project0-build.json[0m
+[0m2021.10.11 11:35:57 INFO  [success] Total time: 4 s, completed Oct 11, 2021 11:35:58 AM[0m
+[0m2021.10.11 11:36:00 INFO  [info] Loading settings for project root from build.sbt ...[0m
+[0m2021.10.11 11:36:00 INFO  [info] Set current project to project0 (in build file:/C:/Users/Work/Project0/project0/)[0m
+[0m2021.10.11 11:36:00 INFO  [info] Updating ...[0m
+[0m2021.10.11 11:36:00 INFO  [info] Done updating.[0m
+[0m2021.10.11 11:36:00 INFO  [success] Generated .bloop\root.json[0m
+[0m2021.10.11 11:36:00 INFO  [success] Generated .bloop\root-test.json[0m
+[0m2021.10.11 11:36:00 INFO  [success] Total time: 0 s, completed Oct 11, 2021 11:36:00 AM[0m
+[0m2021.10.11 11:36:00 INFO  time: ran 'sbt bloopInstall' in 12s[0m
+[0m2021.10.11 11:36:00 INFO  Disconnecting from Bloop session...[0m
+[0m2021.10.11 11:36:00 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.10.11 11:36:01 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.10.11 11:36:01 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 23603'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:23603...
+The server is listening for incoming connections at tcp://127.0.0.1:23603...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.11 11:36:03 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Work\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.11 11:36:03 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 21151'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:21151...
+The server is listening for incoming connections at tcp://127.0.0.1:21151...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.11 11:36:03 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Work\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.11 11:36:03 INFO  time: Connected to build server in 2.67s[0m
+[0m2021.10.11 11:36:03 INFO  Connected to Build server: Bloop v1.4.9[0m
+[0m2021.10.11 11:36:03 INFO  time: Imported build in 0.24s[0m
+[0m2021.10.11 11:36:03 INFO  time: indexed workspace in 0.58s[0m
+[0m2021.10.11 11:36:04 WARN  unsupported Scala 2.12.7[0m
+[0m2021.10.11 11:36:05 INFO  no build target: using presentation compiler with only scala-library: 2.12.8[0m
+[0m2021.10.11 11:36:05 WARN  unsupported Scala 2.12.7[0m
+[0m2021.10.11 11:36:48 INFO  compiling root-test (1 scala source)[0m
+[0m2021.10.11 11:36:51 WARN  unsupported Scala 2.12.7[0m
+[0m2021.10.11 11:36:54 INFO  time: compiled root-test in 5.7s[0m
+Oct 11, 2021 11:36:58 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 11, 2021 11:37:07 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 900
+[0m2021.10.11 11:37:09 INFO  compiling root (1 scala source)[0m
+[0m2021.10.11 11:37:09 INFO  time: compiled root in 0.62s[0m
+[0m2021.10.11 11:37:53 INFO  compiling root (1 scala source)[0m
+[0m2021.10.11 11:37:53 INFO  time: compiled root in 0.73s[0m
+[0m2021.10.11 11:40:17 INFO  compiling root (1 scala source)[0m
+[0m2021.10.11 11:40:29 INFO  time: compiled root in 12s[0m
+[0m2021.10.11 11:45:55 INFO  compiling root (1 scala source)[0m
+[0m2021.10.11 11:45:57 WARN  unsupported Scala 2.12.7[0m
+[0m2021.10.11 11:45:58 INFO  time: compiled root in 2.58s[0m
+[0m2021.10.11 11:47:19 INFO  compiling root (1 scala source)[0m
+[0m2021.10.11 11:47:21 INFO  time: compiled root in 1.86s[0m
+[0m2021.10.11 11:47:32 INFO  compiling root (1 scala source)[0m
+[0m2021.10.11 11:47:34 INFO  time: compiled root in 1.89s[0m
+[0m2021.10.11 11:48:02 INFO  compiling root (1 scala source)[0m
+[0m2021.10.11 11:48:07 INFO  time: compiled root in 4.87s[0m
+[0m2021.10.11 11:56:39 INFO  compiling root (1 scala source)[0m
+[0m2021.10.11 11:56:45 INFO  time: compiled root in 5.9s[0m
+[0m2021.10.11 11:59:25 INFO  compiling root (1 scala source)[0m
+[0m2021.10.11 11:59:28 INFO  time: compiled root in 3.18s[0m
+[0m2021.10.11 12:03:39 INFO  compiling root (1 scala source)[0m
+[0m2021.10.11 12:03:42 INFO  C:\Users\Work\Project0\project0\src\main\scala\pokedex\pokedexmain.scala:18:90: stale bloop error: unclosed string literal
+                println(s"${cols(0)}|${cols(1)}|${cols(2)}|${cols(3)|${cols(4)|${cols(5)}")
+                                                                                         ^[0m
+[0m2021.10.11 12:03:42 INFO  C:\Users\Work\Project0\project0\src\main\scala\pokedex\pokedexmain.scala:18:90: stale bloop error: unclosed string literal
+                println(s"${cols(0)}|${cols(1)}|${cols(2)}|${cols(3)|${cols(4)|${cols(5)}")
+                                                                                         ^[0m
+[0m2021.10.11 12:03:42 INFO  C:\Users\Work\Project0\project0\src\main\scala\pokedex\pokedexmain.scala:27:11: stale bloop error: unclosed string literal
+        }
+          ^[0m
+[0m2021.10.11 12:03:42 INFO  C:\Users\Work\Project0\project0\src\main\scala\pokedex\pokedexmain.scala:19:17: stale bloop error: Missing closing brace `}' assumed here
+                println(cols(0))
+                ^[0m
+[0m2021.10.11 12:03:42 INFO  C:\Users\Work\Project0\project0\src\main\scala\pokedex\pokedexmain.scala:19:24: stale bloop error: unclosed string literal
+                println(cols(0))
+                       ^[0m
+[0m2021.10.11 12:03:42 INFO  time: compiled root in 3.13s[0m
+[0m2021.10.11 12:03:56 INFO  C:\Users\Work\Project0\project0\src\main\scala\pokedex\pokedexmain.scala:18:90: stale bloop error: unclosed string literal
+                println(s"${cols(0)}|${cols(1)}|${cols(2)}|${cols(3)|${cols(4)|${cols(5)}")
+                                                                                         ^[0m
+[0m2021.10.11 12:03:56 INFO  C:\Users\Work\Project0\project0\src\main\scala\pokedex\pokedexmain.scala:27:11: stale bloop error: unclosed string literal
+        }
+          ^[0m
+[0m2021.10.11 12:03:56 INFO  C:\Users\Work\Project0\project0\src\main\scala\pokedex\pokedexmain.scala:19:17: stale bloop error: Missing closing brace `}' assumed here
+                println(cols(0))
+                ^[0m
+[0m2021.10.11 12:03:56 INFO  C:\Users\Work\Project0\project0\src\main\scala\pokedex\pokedexmain.scala:19:24: stale bloop error: unclosed string literal
+                println(cols(0))
+                       ^[0m
+[0m2021.10.11 12:03:56 INFO  C:\Users\Work\Project0\project0\src\main\scala\pokedex\pokedexmain.scala:18:90: stale bloop error: unclosed string literal
+                println(s"${cols(0)}|${cols(1)}|${cols(2)}|${cols(3)|${cols(4)|${cols(5)}")
+                                                                                         ^[0m
+[0m2021.10.11 12:03:56 INFO  C:\Users\Work\Project0\project0\src\main\scala\pokedex\pokedexmain.scala:27:11: stale bloop error: unclosed string literal
+        }
+          ^[0m
+[0m2021.10.11 12:03:56 INFO  C:\Users\Work\Project0\project0\src\main\scala\pokedex\pokedexmain.scala:19:17: stale bloop error: Missing closing brace `}' assumed here
+                println(cols(0))
+                ^[0m
+[0m2021.10.11 12:03:56 INFO  C:\Users\Work\Project0\project0\src\main\scala\pokedex\pokedexmain.scala:19:24: stale bloop error: unclosed string literal
+                println(cols(0))
+                       ^[0m
+[0m2021.10.11 12:03:59 INFO  C:\Users\Work\Project0\project0\src\main\scala\pokedex\pokedexmain.scala:18:90: stale bloop error: unclosed string literal
+                println(s"${cols(0)}|${cols(1)}|${cols(2)}|${cols(3)|${cols(4)|${cols(5)}")
+                                                                                         ^[0m
+[0m2021.10.11 12:03:59 INFO  C:\Users\Work\Project0\project0\src\main\scala\pokedex\pokedexmain.scala:27:11: stale bloop error: unclosed string literal
+        }
+          ^[0m
+[0m2021.10.11 12:03:59 INFO  C:\Users\Work\Project0\project0\src\main\scala\pokedex\pokedexmain.scala:19:17: stale bloop error: Missing closing brace `}' assumed here
+                println(cols(0))
+                ^[0m
+[0m2021.10.11 12:03:59 INFO  C:\Users\Work\Project0\project0\src\main\scala\pokedex\pokedexmain.scala:19:24: stale bloop error: unclosed string literal
+                println(cols(0))
+                       ^[0m
+[0m2021.10.11 12:03:59 INFO  C:\Users\Work\Project0\project0\src\main\scala\pokedex\pokedexmain.scala:18:90: stale bloop error: unclosed string literal
+                println(s"${cols(0)}|${cols(1)}|${cols(2)}|${cols(3)|${cols(4)|${cols(5)}")
+                                                                                         ^[0m
+[0m2021.10.11 12:03:59 INFO  C:\Users\Work\Project0\project0\src\main\scala\pokedex\pokedexmain.scala:27:11: stale bloop error: unclosed string literal
+        }
+          ^[0m
+[0m2021.10.11 12:03:59 INFO  C:\Users\Work\Project0\project0\src\main\scala\pokedex\pokedexmain.scala:19:17: stale bloop error: Missing closing brace `}' assumed here
+                println(cols(0))
+                ^[0m
+[0m2021.10.11 12:03:59 INFO  C:\Users\Work\Project0\project0\src\main\scala\pokedex\pokedexmain.scala:19:24: stale bloop error: unclosed string literal
+                println(cols(0))
+                       ^[0m
+[0m2021.10.11 12:04:07 INFO  compiling root (1 scala source)[0m
+[0m2021.10.11 12:04:11 INFO  time: compiled root in 4.55s[0m
+[0m2021.10.11 12:04:32 INFO  compiling root (1 scala source)[0m
+[0m2021.10.11 12:04:34 INFO  time: compiled root in 2.15s[0m
+[0m2021.10.11 12:05:30 INFO  compiling root (1 scala source)[0m
+[0m2021.10.11 12:05:30 INFO  time: compiled root in 0.9s[0m
+[0m2021.10.11 12:06:11 INFO  compiling root (1 scala source)[0m
+[0m2021.10.11 12:06:13 INFO  time: compiled root in 1.58s[0m
+[0m2021.10.11 12:06:15 INFO  Deduplicating compilation of root from bsp client 'Metals 0.10.7' (since 30m 12.442s)[0m
+Oct 11, 2021 12:06:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress.  Debugging is not supported because bloop server is running on a JRE C:\Program Files\Java\jre1.8.0_301 with no support for Java Debug Interface: 'JDI implementation is not provided by the vendor'. To enable debugging, install a JDK and restart the bloop server.
+
+Run bloop about for more information about the current JDK runtime.
+java.util.concurrent.CompletionException: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress.  Debugging is not supported because bloop server is running on a JRE C:\Program Files\Java\jre1.8.0_301 with no support for Java Debug Interface: 'JDI implementation is not provided by the vendor'. To enable debugging, install a JDK and restart the bloop server.
+
+Run bloop about for more information about the current JDK runtime.
+	at java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source)
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(Unknown Source)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at scala.concurrent.BatchingExecutor$Batch.processBatch$1(BatchingExecutor.scala:67)
+	at scala.concurrent.BatchingExecutor$Batch.$anonfun$run$1(BatchingExecutor.scala:82)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:85)
+	at scala.concurrent.BatchingExecutor$Batch.run(BatchingExecutor.scala:59)
+	at scala.concurrent.Future$InternalCallbackExecutor$.unbatchedExecute(Future.scala:875)
+	at scala.concurrent.BatchingExecutor.execute(BatchingExecutor.scala:110)
+	at scala.concurrent.BatchingExecutor.execute$(BatchingExecutor.scala:107)
+	at scala.concurrent.Future$InternalCallbackExecutor$.execute(Future.scala:873)
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:72)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1$adapted(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:288)
+	at scala.concurrent.Promise.complete(Promise.scala:53)
+	at scala.concurrent.Promise.complete$(Promise.scala:52)
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:187)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress.  Debugging is not supported because bloop server is running on a JRE C:\Program Files\Java\jre1.8.0_301 with no support for Java Debug Interface: 'JDI implementation is not provided by the vendor'. To enable debugging, install a JDK and restart the bloop server.
+
+Run bloop about for more information about the current JDK runtime.
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:237)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:229)
+	at scala.concurrent.Future.$anonfun$recoverWith$1(Future.scala:417)
+	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:41)
+	... 4 more
+
+[0m2021.10.11 12:07:37 INFO  compiling root (1 scala source)[0m
+[0m2021.10.11 12:07:38 INFO  time: compiled root in 1.19s[0m
+[0m2021.10.11 12:09:40 INFO  compiling root (1 scala source)[0m
+[0m2021.10.11 12:09:40 INFO  time: compiled root in 0.71s[0m
+[0m2021.10.11 12:09:52 INFO  compiling root (1 scala source)[0m
+[0m2021.10.11 12:09:53 INFO  time: compiled root in 1.05s[0m
+[0m2021.10.11 14:03:00 INFO  time: code lens generation in 6.46s[0m
+[0m2021.10.11 14:03:00 INFO  time: code lens generation in 5.55s[0m

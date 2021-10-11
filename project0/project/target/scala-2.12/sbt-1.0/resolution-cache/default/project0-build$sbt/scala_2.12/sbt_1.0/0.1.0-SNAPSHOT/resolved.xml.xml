@@ -4,7 +4,7 @@
 		module="project0-build$sbt"
 		revision="0.1.0-SNAPSHOT"
 		status="integration"
-		publication="20211011110257"
+		publication="20211011113554"
 		e:sbtVersion="1.0" e:scalaVersion="2.12"
 	/>
 	<configurations>
