@@ -1,27 +1,50 @@
 package pokedex
 
+import scala.io.StdIn._
 import scala.io.Source
 import java.io.{FileNotFoundException, IOException}
 import scala.io.BufferedSource
+import org.mongodb.scala._
+ import org.mongodb.scala.model._
+ import org.mongodb.scala.model.Filters._
+ import org.mongodb.scala.model.Updates._
+ import org.mongodb.scala.model.UpdateOptions
+ import org.mongodb.scala.bson.BsonObjectId
+import example.Helpers._
 
 object Pokedex  {
     def main(args: Array[String]){
 
-        val fileName = "C:/Users/Work/Project0/pokedex_test.csv"
+        val fileName = "C:/Users/Work/Project0/pokedex_complete.csv"
         var bufferedSource:BufferedSource = null
 
+            val client: MongoClient = MongoClient() //localhost:27017
+            val database: MongoDatabase = client.getDatabase("poketest")
+            val collection: MongoCollection[Document] = database.getCollection("pokedex")
+        
         try{
             bufferedSource = Source.fromFile(fileName)
             for (line <- bufferedSource.getLines) {
                 val cols = line.split(",").map(_.trim)
                 //Do processing of input here
                 println(s"${cols(0)}|${cols(1)}|${cols(2)}|${cols(3)}|${cols(4)}|${cols(5)}|${cols(6)}")
-                //println(cols(0))
-                //println(cols(1))
-                //println(cols(2))
-                //println(cols(3))
-                //println(cols(4))
-                //println(cols(5))
+                val doc: Document = Document(
+                    "_id" -> {cols(0)}.toInt,
+                    "name" -> {cols(1)}.toUpperCase(),
+                    "type1" -> {cols(2)}.toUpperCase(),
+                    "type2" -> {cols(3)}.toUpperCase(),
+                    "height" -> {cols(4)}.toInt,
+                    "weight" -> {cols(5)}.toDouble,
+                    "caught" -> {cols(6)}.toBoolean,
+                )
+
+                val observable: Observable[Completed] = collection.insertOne(doc)
+                observable.subscribe(new Observer[Completed] {
+                    override def onNext(result: Completed): Unit = println("Inserted")
+                    override def onError(e: Throwable): Unit = println("Failed")
+                    override def onComplete(): Unit = println("Completed")
+                })
+
             }
 
         }
@@ -47,6 +70,7 @@ object Pokedex  {
             var pokemonToCatch = ""
             loop = true
 
+            Thread.sleep(1000)
             println("Welcome to the Pokedex! Please choose an operation:\n" +
               "(1) Search by Name\n" +
               "(2) Search by Number\n" +
@@ -76,8 +100,9 @@ object Pokedex  {
                 }
                 case 4 => {
                     println("Enter the Pokemon that you caught: ")
-                    pokemonToCatch = readLine().trim()
-                    println(pokemonToCatch) //Processing goes here
+                    pokemonToCatch = {readLine()}.toUpperCase()
+                    collection.updateOne(equal("name", pokemonToCatch), set("caught", true)).printHeadResult("Update Result: ")
+                    println(s"You have caught: $pokemonToCatch!") //Processing goes here
                 }
                 case 0 => {
                     println("Thank you for using the Pokedex!")

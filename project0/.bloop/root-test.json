@@ -5,43 +5,45 @@
         "directory": "C:\\Users\\Work\\Project0\\project0",
         "workspaceDir": "C:\\Users\\Work\\Project0\\project0",
         "sources": [
-            "C:\\Users\\Work\\Project0\\project0\\src\\test\\scala-2.12",
+            "C:\\Users\\Work\\Project0\\project0\\src\\test\\scala-2.13",
             "C:\\Users\\Work\\Project0\\project0\\src\\test\\scala",
             "C:\\Users\\Work\\Project0\\project0\\src\\test\\java",
-            "C:\\Users\\Work\\Project0\\project0\\target\\scala-2.12\\src_managed\\test"
+            "C:\\Users\\Work\\Project0\\project0\\target\\scala-2.13\\src_managed\\test"
         ],
         "dependencies": [
             "root"
         ],
         "classpath": [
-            "C:\\Users\\Work\\Project0\\project0\\.bloop\\root\\scala-2.12\\classes",
-            "C:\\Users\\Work\\.ivy2\\cache\\org.scala-lang\\scala-library\\jars\\scala-library-2.12.8.jar",
-            "C:\\Users\\Work\\.ivy2\\cache\\org.scalatest\\scalatest_2.12\\bundles\\scalatest_2.12-3.0.5.jar",
-            "C:\\Users\\Work\\.ivy2\\cache\\org.scalactic\\scalactic_2.12\\bundles\\scalactic_2.12-3.0.5.jar",
-            "C:\\Users\\Work\\.ivy2\\cache\\org.scala-lang\\scala-reflect\\jars\\scala-reflect-2.12.8.jar",
-            "C:\\Users\\Work\\.ivy2\\cache\\org.scala-lang.modules\\scala-xml_2.12\\bundles\\scala-xml_2.12-1.0.6.jar"
+            "C:\\Users\\Work\\Project0\\project0\\.bloop\\root\\scala-2.13\\classes",
+            "C:\\Users\\Work\\.ivy2\\cache\\org.scala-lang\\scala-library\\jars\\scala-library-2.13.6.jar",
+            "C:\\Users\\Work\\.ivy2\\cache\\org.mongodb.scala\\mongo-scala-driver_2.13\\jars\\mongo-scala-driver_2.13-2.8.0.jar",
+            "C:\\Users\\Work\\.ivy2\\cache\\org.mongodb.scala\\mongo-scala-bson_2.13\\jars\\mongo-scala-bson_2.13-2.8.0.jar",
+            "C:\\Users\\Work\\.ivy2\\cache\\org.mongodb\\mongodb-driver-async\\jars\\mongodb-driver-async-3.12.0.jar",
+            "C:\\Users\\Work\\.ivy2\\cache\\org.mongodb\\bson\\jars\\bson-3.12.0.jar",
+            "C:\\Users\\Work\\.ivy2\\cache\\org.mongodb\\mongodb-driver-core\\jars\\mongodb-driver-core-3.12.0.jar",
+            "C:\\Users\\Work\\.ivy2\\cache\\org.scala-lang\\scala-reflect\\jars\\scala-reflect-2.13.6.jar"
         ],
         "out": "C:\\Users\\Work\\Project0\\project0\\.bloop\\root",
-        "classesDir": "C:\\Users\\Work\\Project0\\project0\\.bloop\\root\\scala-2.12\\test-classes",
+        "classesDir": "C:\\Users\\Work\\Project0\\project0\\.bloop\\root\\scala-2.13\\test-classes",
         "resources": [
             "C:\\Users\\Work\\Project0\\project0\\src\\test\\resources",
-            "C:\\Users\\Work\\Project0\\project0\\target\\scala-2.12\\resource_managed\\test"
+            "C:\\Users\\Work\\Project0\\project0\\target\\scala-2.13\\resource_managed\\test"
         ],
         "scala": {
             "organization": "org.scala-lang",
             "name": "scala-compiler",
-            "version": "2.12.8",
+            "version": "2.13.6",
             "options": [
                 
             ],
             "jars": [
-                "C:\\Users\\Work\\.ivy2\\cache\\org.scala-lang\\scala-compiler\\jars\\scala-compiler-2.12.8.jar",
-                "C:\\Users\\Work\\.ivy2\\cache\\org.scala-lang\\scala-library\\jars\\scala-library-2.12.8.jar",
-                "C:\\Users\\Work\\.ivy2\\cache\\org.scala-lang\\scala-reflect\\jars\\scala-reflect-2.12.8.jar",
-                "C:\\Users\\Work\\.ivy2\\cache\\org.scala-lang.modules\\scala-xml_2.12\\bundles\\scala-xml_2.12-1.0.6.jar",
-                "C:\\Users\\Work\\.ivy2\\cache\\jline\\jline\\jars\\jline-2.14.6.jar"
+                "C:\\Users\\Work\\.ivy2\\cache\\org.scala-lang\\scala-compiler\\jars\\scala-compiler-2.13.6.jar",
+                "C:\\Users\\Work\\.ivy2\\cache\\org.scala-lang\\scala-library\\jars\\scala-library-2.13.6.jar",
+                "C:\\Users\\Work\\.ivy2\\cache\\org.scala-lang\\scala-reflect\\jars\\scala-reflect-2.13.6.jar",
+                "C:\\Users\\Work\\.ivy2\\cache\\org.jline\\jline\\jars\\jline-3.19.0.jar",
+                "C:\\Users\\Work\\.ivy2\\cache\\net.java.dev.jna\\jna\\jars\\jna-5.3.1.jar"
             ],
-            "analysis": "C:\\Users\\Work\\Project0\\project0\\target\\streams\\test\\bloopAnalysisOut\\$global\\streams\\inc_compile_2.12.zip",
+            "analysis": "C:\\Users\\Work\\Project0\\project0\\target\\streams\\test\\bloopAnalysisOut\\$global\\streams\\inc_compile_2.13.zip",
             "setup": {
                 "order": "mixed",
                 "addLibraryToBootClasspath": true,
@@ -112,80 +114,112 @@
                 {
                     "organization": "org.scala-lang",
                     "name": "scala-library",
-                    "version": "2.12.8",
+                    "version": "2.13.6",
                     "artifacts": [
                         {
                             "name": "scala-library",
-                            "path": "C:\\Users\\Work\\.ivy2\\cache\\org.scala-lang\\scala-library\\jars\\scala-library-2.12.8.jar"
+                            "path": "C:\\Users\\Work\\.ivy2\\cache\\org.scala-lang\\scala-library\\jars\\scala-library-2.13.6.jar"
                         },
                         {
                             "name": "scala-library",
                             "classifier": "sources",
-                            "path": "C:\\Users\\Work\\.ivy2\\cache\\org.scala-lang\\scala-library\\srcs\\scala-library-2.12.8-sources.jar"
+                            "path": "C:\\Users\\Work\\.ivy2\\cache\\org.scala-lang\\scala-library\\srcs\\scala-library-2.13.6-sources.jar"
                         }
                     ]
                 },
                 {
-                    "organization": "org.scalatest",
-                    "name": "scalatest_2.12",
-                    "version": "3.0.5",
+                    "organization": "org.mongodb.scala",
+                    "name": "mongo-scala-driver_2.13",
+                    "version": "2.8.0",
                     "artifacts": [
                         {
-                            "name": "scalatest_2.12",
-                            "path": "C:\\Users\\Work\\.ivy2\\cache\\org.scalatest\\scalatest_2.12\\bundles\\scalatest_2.12-3.0.5.jar"
+                            "name": "mongo-scala-driver_2.13",
+                            "path": "C:\\Users\\Work\\.ivy2\\cache\\org.mongodb.scala\\mongo-scala-driver_2.13\\jars\\mongo-scala-driver_2.13-2.8.0.jar"
                         },
                         {
-                            "name": "scalatest_2.12",
+                            "name": "mongo-scala-driver_2.13",
                             "classifier": "sources",
-                            "path": "C:\\Users\\Work\\.ivy2\\cache\\org.scalatest\\scalatest_2.12\\srcs\\scalatest_2.12-3.0.5-sources.jar"
+                            "path": "C:\\Users\\Work\\.ivy2\\cache\\org.mongodb.scala\\mongo-scala-driver_2.13\\srcs\\mongo-scala-driver_2.13-2.8.0-sources.jar"
                         }
                     ]
                 },
                 {
-                    "organization": "org.scalactic",
-                    "name": "scalactic_2.12",
-                    "version": "3.0.5",
+                    "organization": "org.mongodb.scala",
+                    "name": "mongo-scala-bson_2.13",
+                    "version": "2.8.0",
                     "artifacts": [
                         {
-                            "name": "scalactic_2.12",
-                            "path": "C:\\Users\\Work\\.ivy2\\cache\\org.scalactic\\scalactic_2.12\\bundles\\scalactic_2.12-3.0.5.jar"
+                            "name": "mongo-scala-bson_2.13",
+                            "path": "C:\\Users\\Work\\.ivy2\\cache\\org.mongodb.scala\\mongo-scala-bson_2.13\\jars\\mongo-scala-bson_2.13-2.8.0.jar"
                         },
                         {
-                            "name": "scalactic_2.12",
+                            "name": "mongo-scala-bson_2.13",
                             "classifier": "sources",
-                            "path": "C:\\Users\\Work\\.ivy2\\cache\\org.scalactic\\scalactic_2.12\\srcs\\scalactic_2.12-3.0.5-sources.jar"
+                            "path": "C:\\Users\\Work\\.ivy2\\cache\\org.mongodb.scala\\mongo-scala-bson_2.13\\srcs\\mongo-scala-bson_2.13-2.8.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.mongodb",
+                    "name": "mongodb-driver-async",
+                    "version": "3.12.0",
+                    "artifacts": [
+                        {
+                            "name": "mongodb-driver-async",
+                            "path": "C:\\Users\\Work\\.ivy2\\cache\\org.mongodb\\mongodb-driver-async\\jars\\mongodb-driver-async-3.12.0.jar"
+                        },
+                        {
+                            "name": "mongodb-driver-async",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Work\\.ivy2\\cache\\org.mongodb\\mongodb-driver-async\\srcs\\mongodb-driver-async-3.12.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.mongodb",
+                    "name": "bson",
+                    "version": "3.12.0",
+                    "artifacts": [
+                        {
+                            "name": "bson",
+                            "path": "C:\\Users\\Work\\.ivy2\\cache\\org.mongodb\\bson\\jars\\bson-3.12.0.jar"
+                        },
+                        {
+                            "name": "bson",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Work\\.ivy2\\cache\\org.mongodb\\bson\\srcs\\bson-3.12.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.mongodb",
+                    "name": "mongodb-driver-core",
+                    "version": "3.12.0",
+                    "artifacts": [
+                        {
+                            "name": "mongodb-driver-core",
+                            "path": "C:\\Users\\Work\\.ivy2\\cache\\org.mongodb\\mongodb-driver-core\\jars\\mongodb-driver-core-3.12.0.jar"
+                        },
+                        {
+                            "name": "mongodb-driver-core",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Work\\.ivy2\\cache\\org.mongodb\\mongodb-driver-core\\srcs\\mongodb-driver-core-3.12.0-sources.jar"
                         }
                     ]
                 },
                 {
                     "organization": "org.scala-lang",
                     "name": "scala-reflect",
-                    "version": "2.12.8",
+                    "version": "2.13.6",
                     "artifacts": [
                         {
                             "name": "scala-reflect",
-                            "path": "C:\\Users\\Work\\.ivy2\\cache\\org.scala-lang\\scala-reflect\\jars\\scala-reflect-2.12.8.jar"
+                            "path": "C:\\Users\\Work\\.ivy2\\cache\\org.scala-lang\\scala-reflect\\jars\\scala-reflect-2.13.6.jar"
                         },
                         {
                             "name": "scala-reflect",
                             "classifier": "sources",
-                            "path": "C:\\Users\\Work\\.ivy2\\cache\\org.scala-lang\\scala-reflect\\srcs\\scala-reflect-2.12.8-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "org.scala-lang.modules",
-                    "name": "scala-xml_2.12",
-                    "version": "1.0.6",
-                    "artifacts": [
-                        {
-                            "name": "scala-xml_2.12",
-                            "path": "C:\\Users\\Work\\.ivy2\\cache\\org.scala-lang.modules\\scala-xml_2.12\\bundles\\scala-xml_2.12-1.0.6.jar"
-                        },
-                        {
-                            "name": "scala-xml_2.12",
-                            "classifier": "sources",
-                            "path": "C:\\Users\\Work\\.ivy2\\cache\\org.scala-lang.modules\\scala-xml_2.12\\srcs\\scala-xml_2.12-1.0.6-sources.jar"
+                            "path": "C:\\Users\\Work\\.ivy2\\cache\\org.scala-lang\\scala-reflect\\srcs\\scala-reflect-2.13.6-sources.jar"
                         }
                     ]
                 }
