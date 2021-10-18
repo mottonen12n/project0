@@ -3,24 +3,22 @@ Pokedex MongoDB Queries
 //Counts of all full types, sorted by count, descending (highest count -> lowest count)
 
 db.pokedex.aggregate([
-	{$group:{
-		_id: {type1: "$type1", type2: "$type2"}, count: {$sum: 1}
-	}},
+	{$group:{_id: {type1: "$type1", type2: "$type2"}, count: {$sum: 1}}},
 	{$sort: { count : -1 }}
 ])
 
-//A Heaviest Pokemon in Pokedex
+//Heaviest Pokemon in Pokedex, with lowest id number
 
 db.pokedex.aggregate([
-	{$sort: {weight: 1}},
+	{$sort: {weight: 1, _id: 1}},
 	{$group: {_id: 1, number: {$last: "$_id"}, name: {$last: "$name"}, weight: {$last: "$weight"}}},
 	{$project: {_id: 0}}
 ])
 
-//A Shortest Pokemon in Pokedex
+//Shortest Pokemon in Pokedex, with lowest id number
 
 db.pokedex.aggregate([
-	{$sort: {height: 1}},
+	{$sort: {height: 1, _id: 1}},
 	{$group: {_id: 1, number: {$first: "$_id"}, name: {$first: "$name"}, height: {$first: "$height"}}},
 	{$project: {_id: 0}}
 ])
