@@ -4,7 +4,7 @@
 		module="pokedex$sources"
 		revision="0.1.0-SNAPSHOT"
 		status="integration"
-		publication="20211015143247"
+		publication="20211018114913"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

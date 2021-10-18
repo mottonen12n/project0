@@ -1141,17 +1141,17 @@
 [debug] == resolving dependencies com.pokedex#pokedex$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.13.6 [scala-tool->master]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
-[debug] 	[NOT REQUIRED] org.mongodb#bson;3.12.0!bson.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.13.6!scala-library.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.13.6!scala-reflect.jar(src)
-[debug] 	[NOT REQUIRED] org.mongodb#mongodb-driver-async;3.12.0!mongodb-driver-async.jar(src)
+[debug] 	[NOT REQUIRED] org.mongodb#bson;3.12.0!bson.jar(src)
 [debug] 	[NOT REQUIRED] org.mongodb.scala#mongo-scala-bson_2.13;2.8.0!mongo-scala-bson_2.13.jar(src)
-[debug] 	[NOT REQUIRED] org.mongodb#mongodb-driver-core;3.12.0!mongodb-driver-core.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.13.6!scala-compiler.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.13.6!scala-library.jar(src)
 [debug] 	[NOT REQUIRED] org.mongodb.scala#mongo-scala-driver_2.13;2.8.0!mongo-scala-driver_2.13.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.13.6!scala-compiler.jar(src)
+[debug] 	[NOT REQUIRED] org.mongodb#mongodb-driver-async;3.12.0!mongodb-driver-async.jar(src)
 [debug] 	[NOT REQUIRED] org.jline#jline;3.19.0!jline.jar(src)
+[debug] 	[NOT REQUIRED] org.mongodb#mongodb-driver-core;3.12.0!mongodb-driver-core.jar(src)
 [debug] 	[NOT REQUIRED] net.java.dev.jna#jna;5.3.1!jna.jar(src)
-[debug] :: resolution report :: resolve 184ms :: artifacts dl 4ms
+[debug] :: resolution report :: resolve 40ms :: artifacts dl 4ms
 [debug] 	report for com.pokedex#pokedex$sources;0.1.0-SNAPSHOT compile produced in C:\Users\Work\Project0\project0\target\scala-2.13\resolution-cache\reports\com.pokedex-pokedex$sources-compile.xml
 [debug] 	report for com.pokedex#pokedex$sources;0.1.0-SNAPSHOT runtime produced in C:\Users\Work\Project0\project0\target\scala-2.13\resolution-cache\reports\com.pokedex-pokedex$sources-runtime.xml
 [debug] 	report for com.pokedex#pokedex$sources;0.1.0-SNAPSHOT test produced in C:\Users\Work\Project0\project0\target\scala-2.13\resolution-cache\reports\com.pokedex-pokedex$sources-test.xml
@@ -1163,4 +1163,4 @@
 [debug] 	report for com.pokedex#pokedex$sources;0.1.0-SNAPSHOT plugin produced in C:\Users\Work\Project0\project0\target\scala-2.13\resolution-cache\reports\com.pokedex-pokedex$sources-plugin.xml
 [debug] 	report for com.pokedex#pokedex$sources;0.1.0-SNAPSHOT pom produced in C:\Users\Work\Project0\project0\target\scala-2.13\resolution-cache\reports\com.pokedex-pokedex$sources-pom.xml
 [debug] 	report for com.pokedex#pokedex$sources;0.1.0-SNAPSHOT scala-tool produced in C:\Users\Work\Project0\project0\target\scala-2.13\resolution-cache\reports\com.pokedex-pokedex$sources-scala-tool.xml
-[debug] 	resolve done (184ms resolve - 4ms download)
+[debug] 	resolve done (40ms resolve - 4ms download)

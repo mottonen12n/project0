@@ -1,0 +1,45 @@
+Pokedex MongoDB Queries
+
+//Counts of all full types, sorted by count, descending (highest count -> lowest count)
+
+db.pokedex.aggregate([
+	{$group:{
+		_id: {type1: "$type1", type2: "$type2"}, count: {$sum: 1}
+	}},
+	{$sort: { count : -1 }}
+])
+
+//A Heaviest Pokemon in Pokedex
+
+db.pokedex.aggregate([
+	{$sort: {weight: 1}},
+	{$group: {_id: 1, number: {$last: "$_id"}, name: {$last: "$name"}, weight: {$last: "$weight"}}},
+	{$project: {_id: 0}}
+])
+
+//A Shortest Pokemon in Pokedex
+
+db.pokedex.aggregate([
+	{$sort: {height: 1}},
+	{$group: {_id: 1, number: {$first: "$_id"}, name: {$first: "$name"}, height: {$first: "$height"}}},
+	{$project: {_id: 0}}
+])
+
+//Total weight of caught pokemon
+
+db.pokedex.aggregate([
+	{$match: {caught: true}},
+	{$group: {_id: "$caught", totalWeight: {$sum: "$weight"}}},
+	{$project: {_id: 0, caught: "$_id", totalWeight: 1}}
+])
+
+//Average height of caught pokemon
+
+db.pokedex.aggregate([
+	{$match: {caught: true}},
+	{$group: {_id: "$caught", averageHeight: {$avg: "$height"}}},
+	{$project: {_id: 0, caught: "$_id", averageHeight: 1}}
+])
+
+//Show list of caught pokemon (for verifying queries above)
+db.pokedex.find({caught:true})

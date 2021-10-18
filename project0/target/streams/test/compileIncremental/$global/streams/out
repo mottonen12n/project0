@@ -4,7 +4,7 @@
 [0m[[0m[0minfo[0m] [0m[0mCompiling 1 Scala source to C:\Users\Work\Project0\project0\target\scala-2.13\test-classes ...[0m
 [0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.13:1.2.5:compile for Scala 2.13.6[0m
 [0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.13:1.2.5:compile for Scala 2.13.6[0m
-[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 2b1d0ebd for Scala compiler version 2.13.6[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 46c54d94 for Scala compiler version 2.13.6[0m
 [0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
 [0m[[0m[0mdebug[0m] [0m[0m	C:\Program Files\Java\jre1.8.0_301\lib\resources.jar;C:\Program Files\Java\jre1.8.0_301\lib\rt.jar;C:\Program Files\Java\jre1.8.0_301\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_301\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_301\lib\jce.jar;C:\Program Files\Java\jre1.8.0_301\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_301\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_301\classes;C:\Users\Work\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.13.6.jar[0m

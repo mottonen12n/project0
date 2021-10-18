@@ -2505,3 +2505,817 @@ No more data in the client stdin, exiting...
 [0m2021.10.15 14:34:34 INFO  shutting down Metals[0m
 [0m2021.10.15 14:34:34 INFO  Shut down connection with build server.[0m
 [0m2021.10.15 14:34:34 INFO  Shut down connection with build server.[0m
+[0m2021.10.15 14:35:02 INFO  Started: Metals version 0.10.7 in workspace 'C:\Users\Work\Project0\project0' for client Visual Studio Code 1.61.0.[0m
+[0m2021.10.15 14:35:03 INFO  time: initialize in 0.47s[0m
+[0m2021.10.15 14:35:02 INFO  Attempting to connect to the build server...[0m
+[0m2021.10.15 14:35:03 WARN  no build target for: C:\Users\Work\Project0\project0\src\main\scala\pokedex\pokedexmain.scala[0m
+[0m2021.10.15 14:35:04 INFO  skipping build import with status 'Installed'[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 35142'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:35142...
+The server is listening for incoming connections at tcp://127.0.0.1:35142...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.15 14:35:05 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Work\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.15 14:35:05 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 36696'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:36696...
+The server is listening for incoming connections at tcp://127.0.0.1:36696...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.15 14:35:05 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Work\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.15 14:35:05 INFO  time: Connected to build server in 1.93s[0m
+[0m2021.10.15 14:35:05 INFO  Connected to Build server: Bloop v1.4.9[0m
+[0m2021.10.15 14:35:06 INFO  no build target: using presentation compiler with only scala-library: 2.12.15[0m
+[0m2021.10.15 14:35:07 INFO  no build target: using presentation compiler with only scala-library: 2.12.15[0m
+[0m2021.10.15 14:35:09 INFO  time: code lens generation in 4.2s[0m
+[0m2021.10.15 14:35:10 INFO  time: indexed workspace in 3.66s[0m
+[0m2021.10.15 14:35:10 INFO  compiling root-test (1 scala source)[0m
+[0m2021.10.15 14:35:10 INFO  no build target: using presentation compiler with only scala-library: 2.13.6[0m
+[0m2021.10.15 14:35:12 INFO  time: compiled root-test in 2.26s[0m
+[0m2021.10.15 14:43:07 INFO  compiling root (1 scala source)[0m
+[0m2021.10.15 14:43:09 WARN  2 deprecations (since 2.13.0)[0m
+[0m2021.10.15 14:43:09 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.10.15 14:43:09 WARN  3 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.10.15 14:43:09 INFO  time: compiled root in 2.33s[0m
+[0m2021.10.15 15:03:57 INFO  compiling root (1 scala source)[0m
+[0m2021.10.15 15:03:57 INFO  time: compiled root in 0.98s[0m
+[0m2021.10.15 15:04:45 INFO  compiling root (1 scala source)[0m
+[0m2021.10.15 15:04:48 WARN  2 deprecations (since 2.13.0)[0m
+[0m2021.10.15 15:04:48 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.10.15 15:04:48 WARN  3 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.10.15 15:04:48 INFO  time: compiled root in 3.35s[0m
+[0m2021.10.15 15:06:10 INFO  compiling root (1 scala source)[0m
+[0m2021.10.15 15:06:10 INFO  time: compiled root in 0.23s[0m
+[0m2021.10.15 15:06:25 INFO  compiling root (1 scala source)[0m
+[0m2021.10.15 15:06:27 WARN  2 deprecations (since 2.13.0)[0m
+[0m2021.10.15 15:06:27 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.10.15 15:06:27 WARN  3 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.10.15 15:06:27 INFO  time: compiled root in 1.39s[0m
+[0m2021.10.15 15:09:02 INFO  compiling root-test (1 scala source)[0m
+[0m2021.10.15 15:09:02 INFO  time: compiled root-test in 0.21s[0m
+[0m2021.10.15 15:09:42 INFO  compiling root (1 scala source)[0m
+[0m2021.10.15 15:09:44 INFO  time: compiled root in 1.56s[0m
+[0m2021.10.15 15:10:32 INFO  compiling root (1 scala source)[0m
+[0m2021.10.15 15:10:32 INFO  time: compiled root in 0.17s[0m
+[0m2021.10.15 15:11:29 INFO  compiling root (1 scala source)[0m
+[0m2021.10.15 15:11:31 INFO  time: compiled root in 1.41s[0m
+[0m2021.10.15 15:12:10 INFO  compiling root (1 scala source)[0m
+[0m2021.10.15 15:12:12 WARN  2 deprecations (since 2.13.0)[0m
+[0m2021.10.15 15:12:12 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.10.15 15:12:12 WARN  3 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.10.15 15:12:12 INFO  time: compiled root in 1.44s[0m
+[0m2021.10.15 15:25:57 INFO  compiling root (1 scala source)[0m
+[0m2021.10.15 15:25:59 WARN  2 deprecations (since 2.13.0)[0m
+[0m2021.10.15 15:25:59 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.10.15 15:25:59 WARN  3 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.10.15 15:25:59 INFO  time: compiled root in 2.06s[0m
+[0m2021.10.15 15:31:25 INFO  compiling root (1 scala source)[0m
+[0m2021.10.15 15:31:27 WARN  2 deprecations (since 2.13.0)[0m
+[0m2021.10.15 15:31:27 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.10.15 15:31:27 WARN  3 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.10.15 15:31:27 INFO  time: compiled root in 2.02s[0m
+[0m2021.10.15 15:40:47 INFO  compiling root (1 scala source)[0m
+[0m2021.10.15 15:40:47 INFO  time: compiled root in 0.14s[0m
+Oct 15, 2021 3:42:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1599
+[0m2021.10.15 15:44:40 INFO  compiling root (1 scala source)[0m
+[0m2021.10.15 15:44:40 INFO  time: compiled root in 0.28s[0m
+[0m2021.10.15 15:45:05 INFO  compiling root (1 scala source)[0m
+[0m2021.10.15 15:45:07 WARN  2 deprecations (since 2.13.0)[0m
+[0m2021.10.15 15:45:07 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.10.15 15:45:07 WARN  3 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.10.15 15:45:07 INFO  time: compiled root in 1.93s[0m
+[0m2021.10.15 15:46:00 INFO  compiling root (1 scala source)[0m
+[0m2021.10.15 15:46:03 WARN  2 deprecations (since 2.13.0)[0m
+[0m2021.10.15 15:46:03 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.10.15 15:46:03 WARN  3 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.10.15 15:46:03 INFO  time: compiled root in 2.22s[0m
+[0m2021.10.15 15:46:55 INFO  compiling root (1 scala source)[0m
+[0m2021.10.15 15:46:56 WARN  2 deprecations (since 2.13.0)[0m
+[0m2021.10.15 15:46:56 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.10.15 15:46:56 WARN  3 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.10.15 15:46:56 INFO  time: compiled root in 1.45s[0m
+[0m2021.10.15 15:48:09 INFO  compiling root (1 scala source)[0m
+[0m2021.10.15 15:48:10 WARN  2 deprecations (since 2.13.0)[0m
+[0m2021.10.15 15:48:10 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.10.15 15:48:10 WARN  3 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.10.15 15:48:10 INFO  time: compiled root in 1.52s[0m
+[0m2021.10.15 16:06:44 INFO  compiling root (1 scala source)[0m
+[0m2021.10.15 16:06:45 WARN  2 deprecations (since 2.13.0)[0m
+[0m2021.10.15 16:06:45 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.10.15 16:06:45 WARN  3 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.10.15 16:06:45 INFO  time: compiled root in 1.34s[0m
+[0m2021.10.15 16:28:52 INFO  compiling root (1 scala source)[0m
+[0m2021.10.15 16:28:54 WARN  2 deprecations (since 2.13.0)[0m
+[0m2021.10.15 16:28:54 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.10.15 16:28:54 WARN  3 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.10.15 16:28:54 INFO  time: compiled root in 1.75s[0m
+[0m2021.10.15 16:33:48 INFO  compiling root (1 scala source)[0m
+[0m2021.10.15 16:34:00 WARN  2 deprecations (since 2.13.0)[0m
+[0m2021.10.15 16:34:00 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.10.15 16:34:00 WARN  3 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.10.15 16:34:00 INFO  time: compiled root in 12s[0m
+[0m2021.10.15 16:36:17 INFO  compiling root (1 scala source)[0m
+[0m2021.10.15 16:36:18 WARN  2 deprecations (since 2.13.0)[0m
+[0m2021.10.15 16:36:18 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.10.15 16:36:18 WARN  3 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.10.15 16:36:18 INFO  time: compiled root in 1.41s[0m
+something's wrong: no file:///C:/Users/Work/Project0/project0/src/main/scala/example/Helpers.scala in org.mongodb.scala.Observable[C]RangePosition(file:///C:/Users/Work/Project0/project0/src/main/scala/example/Helpers.scala, 435, 435, 448)
+Oct 15, 2021 4:41:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2699
+Oct 15, 2021 4:45:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2872
+Oct 15, 2021 4:45:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2873
+Oct 15, 2021 4:45:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2876
+Oct 15, 2021 4:45:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2877
+[0m2021.10.15 16:53:00 INFO  compiling root-test (1 scala source)[0m
+[0m2021.10.15 16:53:00 INFO  time: compiled root-test in 0.12s[0m
+[0m2021.10.15 16:53:02 INFO  compiling root-test (1 scala source)[0m
+[0m2021.10.15 16:53:02 INFO  time: compiled root-test in 0.16s[0m
+[0m2021.10.15 16:55:13 INFO  compiling root (1 scala source)[0m
+[0m2021.10.15 16:55:14 WARN  2 deprecations (since 2.13.0)[0m
+[0m2021.10.15 16:55:14 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.10.15 16:55:14 WARN  3 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.10.15 16:55:14 INFO  time: compiled root in 1.53s[0m
+[0m2021.10.15 16:57:10 INFO  compiling root (1 scala source)[0m
+[0m2021.10.15 16:57:11 WARN  2 deprecations (since 2.13.0)[0m
+[0m2021.10.15 16:57:11 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.10.15 16:57:11 WARN  3 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.10.15 16:57:11 INFO  time: compiled root in 1.47s[0m
+Oct 15, 2021 5:47:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3404
+Oct 15, 2021 5:48:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3418
+[0m2021.10.18 10:31:22 INFO  Started: Metals version 0.10.7 in workspace 'C:\Users\Work\Project0\project0' for client Visual Studio Code 1.61.0.[0m
+[0m2021.10.18 10:31:23 INFO  time: initialize in 0.53s[0m
+[0m2021.10.18 10:31:27 INFO  Attempting to connect to the build server...[0m
+[0m2021.10.18 10:31:27 WARN  no build target for: C:\Users\Work\Project0\project0\src\main\scala\pokedex\pokedexmain.scala[0m
+[0m2021.10.18 10:31:28 INFO  skipping build import with status 'Installed'[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 17623'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+[0m2021.10.18 10:31:34 INFO  no build target: using presentation compiler with only scala-library: 2.12.15[0m
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+[0m2021.10.18 10:31:38 INFO  time: code lens generation in 9.27s[0m
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.9...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from 'c:\Users\Work\Project0\project0\.bloop'...
+[0m[32m[D][0m Loading project from 'c:\Users\Work\Project0\project0\.bloop\root.json'
+[0m[32m[D][0m Loading project from 'c:\Users\Work\Project0\project0\.bloop\root-test.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.6.
+[0m[32m[D][0m   => C:\Users\Work\.ivy2\cache\net.java.dev.jna\jna\jars\jna-5.3.1.jar
+[0m[32m[D][0m   => C:\Users\Work\.ivy2\cache\org.jline\jline\jars\jline-3.19.0.jar
+[0m[32m[D][0m   => C:\Users\Work\.ivy2\cache\org.scala-lang\scala-compiler\jars\scala-compiler-2.13.6.jar
+[0m[32m[D][0m   => C:\Users\Work\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.13.6.jar
+[0m[32m[D][0m   => C:\Users\Work\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.13.6.jar
+[0m[32m[D][0m Configured SemanticDB in projects 'root-test', 'root'
+[0m[32m[D][0m Missing analysis file for project 'root-test'
+[0m[32m[D][0m Loading previous analysis for 'root' from 'C:\Users\Work\Project0\project0\target\streams\compile\bloopAnalysisOut\$global\streams\inc_compile_2.13.zip'.
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:17623...
+The server is listening for incoming connections at tcp://127.0.0.1:17623...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.18 10:31:43 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Work\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.18 10:31:43 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 30231'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:30231...
+The server is listening for incoming connections at tcp://127.0.0.1:30231...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.18 10:31:43 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Work\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.18 10:31:43 INFO  time: Connected to build server in 16s[0m
+[0m2021.10.18 10:31:43 INFO  Connected to Build server: Bloop v1.4.9[0m
+[0m2021.10.18 10:31:44 INFO  time: Imported build in 0.16s[0m
+[0m2021.10.18 10:31:51 INFO  time: indexed workspace in 7.55s[0m
+[0m2021.10.18 10:31:52 INFO  no build target: using presentation compiler with only scala-library: 2.13.6[0m
+[0m2021.10.18 10:32:15 INFO  compiling root-test (1 scala source)[0m
+[0m2021.10.18 10:32:17 INFO  time: compiled root-test in 1.77s[0m
+[0m2021.10.18 10:33:44 INFO  compiling root (1 scala source)[0m
+[0m2021.10.18 10:33:48 WARN  2 deprecations (since 2.13.0)[0m
+[0m2021.10.18 10:33:48 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.10.18 10:33:48 WARN  3 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.10.18 10:33:48 INFO  time: compiled root in 4.49s[0m
+something's wrong: no file:///C:/Users/Work/Project0/project0/src/main/scala/pokedex/pokedexmain.scala in org.mongodb.scala.MongoCollection[org.mongodb.scala.Document]RangePosition(file:///C:/Users/Work/Project0/project0/src/main/scala/pokedex/pokedexmain.scala, 818, 818, 843)
+[0m2021.10.18 10:42:40 INFO  compiling root (1 scala source)[0m
+[0m2021.10.18 10:42:43 WARN  2 deprecations (since 2.13.0)[0m
+[0m2021.10.18 10:42:43 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.10.18 10:42:43 WARN  3 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.10.18 10:42:43 INFO  time: compiled root in 2.96s[0m
+[0m2021.10.18 10:43:33 INFO  compiling root-test (1 scala source)[0m
+[0m2021.10.18 10:43:33 INFO  compiling root (1 scala source)[0m
+[0m2021.10.18 10:43:33 INFO  time: compiled root-test in 0.76s[0m
+[0m2021.10.18 10:43:35 INFO  Deduplicating compilation of root from bsp client 'Metals 0.10.7' (since 11m 52.621s)[0m
+[0m2021.10.18 10:43:35 INFO  compiling root (1 scala source)[0m
+[0m2021.10.18 10:43:35 WARN  2 deprecations (since 2.13.0)[0m
+[0m2021.10.18 10:43:35 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.10.18 10:43:35 WARN  3 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.10.18 10:43:35 WARN  2 deprecations (since 2.13.0)[0m
+[0m2021.10.18 10:43:35 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.10.18 10:43:35 WARN  3 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.10.18 10:43:35 INFO  time: compiled root in 0.69s[0m
+[0m2021.10.18 10:43:35 INFO  compiling root-test (1 scala source)[0m
+[0m2021.10.18 10:43:35 INFO  time: compiled root-test in 0.15s[0m
+[0m2021.10.18 10:45:59 INFO  compiling root (1 scala source)[0m
+[0m2021.10.18 10:46:01 WARN  2 deprecations (since 2.13.0)[0m
+[0m2021.10.18 10:46:01 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.10.18 10:46:01 WARN  3 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.10.18 10:46:01 INFO  time: compiled root in 2.18s[0m
+[0m2021.10.18 10:46:10 INFO  compiling root (1 scala source)[0m
+[0m2021.10.18 10:46:12 WARN  2 deprecations (since 2.13.0)[0m
+[0m2021.10.18 10:46:12 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.10.18 10:46:12 WARN  3 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.10.18 10:46:12 INFO  time: compiled root in 1.74s[0m
+[0m2021.10.18 11:13:27 INFO  compiling root (1 scala source)[0m
+[0m2021.10.18 11:13:27 INFO  time: compiled root in 0.48s[0m
+[0m2021.10.18 11:14:04 INFO  compiling root (1 scala source)[0m
+[0m2021.10.18 11:14:04 INFO  time: compiled root in 0.55s[0m
+[0m2021.10.18 11:14:19 INFO  compiling root (1 scala source)[0m
+[0m2021.10.18 11:14:21 WARN  2 deprecations (since 2.13.0)[0m
+[0m2021.10.18 11:14:21 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.10.18 11:14:21 WARN  3 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.10.18 11:14:21 INFO  time: compiled root in 1.65s[0m
+[0m2021.10.18 11:27:17 INFO  compiling root (1 scala source)[0m
+[0m2021.10.18 11:27:17 INFO  time: compiled root in 0.41s[0m
+[0m2021.10.18 11:28:02 INFO  compiling root (1 scala source)[0m
+[0m2021.10.18 11:28:02 INFO  time: compiled root in 0.44s[0m
+[0m2021.10.18 11:28:23 INFO  compiling root (1 scala source)[0m
+[0m2021.10.18 11:28:25 WARN  2 deprecations (since 2.13.0)[0m
+[0m2021.10.18 11:28:25 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.10.18 11:28:25 WARN  3 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.10.18 11:28:25 INFO  time: compiled root in 1.52s[0m
+[0m2021.10.18 11:30:30 WARN  unsupported Scala 2.12.7[0m
+[0m2021.10.18 11:30:30 WARN  unsupported Scala 2.12.7[0m
+[0m2021.10.18 11:30:40 WARN  unsupported Scala 2.12.7[0m
+Oct 18, 2021 11:30:40 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2FWork%2FProject0%2Fproject0%2Fbuild.sbt:19: error: ) expected but string constant found
+    libraryDependencies += "net.liftweb" %% "lift-json" % "3.5.0"
+                           ^
+file%3A%2F%2F%2FC%3A%2FUsers%2FWork%2FProject0%2Fproject0%2Fbuild.sbt:19: error: ) expected but string constant found
+    libraryDependencies += "net.liftweb" %% "lift-json" % "3.5.0"
+                           ^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.syntaxErrorExpected(ScalametaParser.scala:941)
+	at scala.meta.internal.parsers.ScalametaParser.accept(ScalametaParser.scala:947)
+	at scala.meta.internal.parsers.ScalametaParser.inParens(ScalametaParser.scala:785)
+	at scala.meta.internal.parsers.ScalametaParser.argumentExprsWithUsing(ScalametaParser.scala:3175)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$simpleExprRest$4(ScalametaParser.scala:3124)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$simpleExprRest$1(ScalametaParser.scala:3124)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExprRest(ScalametaParser.scala:3090)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$simpleExprRest$1(ScalametaParser.scala:3109)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExprRest(ScalametaParser.scala:3090)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$simpleExpr0$5(ScalametaParser.scala:3036)
+	at scala.util.Success.map(Try.scala:262)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$simpleExpr0$1(ScalametaParser.scala:3036)
+	at scala.meta.internal.parsers.ScalametaParser.atPosTry(ScalametaParser.scala:915)
+	at scala.meta.internal.parsers.ScalametaParser.autoPosTry(ScalametaParser.scala:925)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr0(ScalametaParser.scala:2985)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr(ScalametaParser.scala:2983)
+	at scala.meta.internal.parsers.ScalametaParser.prefixExpr(ScalametaParser.scala:2967)
+	at scala.meta.internal.parsers.ScalametaParser.postfixExpr(ScalametaParser.scala:2947)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$expr$12(ScalametaParser.scala:2514)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$expr$2(ScalametaParser.scala:2514)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:2397)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:2274)
+	at scala.meta.internal.parsers.ScalametaParser.exprMaybeIndented(ScalametaParser.scala:2302)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$patDefOrDcl$1(ScalametaParser.scala:4231)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.patDefOrDcl(ScalametaParser.scala:4217)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:4183)
+	at scala.meta.internal.parsers.ScalametaParser.nonLocalDefOrDcl(ScalametaParser.scala:4172)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$3.applyOrElse(ScalametaParser.scala:4999)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$3.applyOrElse(ScalametaParser.scala:4995)
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:5057)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$scriptSource$1(ScalametaParser.scala:5249)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.scriptSource(ScalametaParser.scala:5248)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:5238)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:5238)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:5244)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$2(ScalametaParser.scala:143)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:143)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$264.apply(ScalametaParser.scala:5308)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:51)
+
+[0m2021.10.18 11:30:41 WARN  unsupported Scala 2.12.7[0m
+[0m2021.10.18 11:30:43 INFO  running 'C:\Program Files\Java\jre1.8.0_301\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\Work\AppData\Local\Temp\metals1218475573207810025\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2021.10.18 11:30:49 INFO  [info] Loading settings for project project0-build-build from metals.sbt ...[0m
+[0m2021.10.18 11:30:49 INFO  [info] Loading project definition from C:\Users\Work\Project0\project0\project\project[0m
+[0m2021.10.18 11:30:50 INFO  [info] Loading settings for project project0-build from metals.sbt ...[0m
+[0m2021.10.18 11:30:50 INFO  [info] Loading project definition from C:\Users\Work\Project0\project0\project[0m
+[0m2021.10.18 11:30:55 INFO  [success] Generated .bloop\project0-build.json[0m
+[0m2021.10.18 11:30:55 INFO  [success] Total time: 5 s, completed Oct 18, 2021 11:30:55 AM[0m
+[0m2021.10.18 11:30:55 INFO  [error] [C:\Users\Work\Project0\project0\build.sbt]:14: ')' expected but string literal found.[0m
+[0m2021.10.18 11:30:55 INFO  Project loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? [0m
+[0m2021.10.18 11:30:56 INFO  time: ran 'sbt bloopInstall' in 12s[0m
+[0m2021.10.18 11:30:56 ERROR sbt command failed: C:\Program Files\Java\jre1.8.0_301\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\Work\AppData\Local\Temp\metals1218475573207810025\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall[0m
+[0m2021.10.18 11:30:56 INFO  Disconnecting from Bloop session...[0m
+[0m2021.10.18 11:30:56 INFO  Shut down connection with build server.[0m
+[0m2021.10.18 11:30:56 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.10.18 11:30:56 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 38945'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:38945...
+The server is listening for incoming connections at tcp://127.0.0.1:38945...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.18 11:30:56 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Work\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.18 11:30:56 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 13527'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:13527...
+The server is listening for incoming connections at tcp://127.0.0.1:13527...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.18 11:30:57 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Work\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.18 11:30:57 INFO  time: Connected to build server in 1.09s[0m
+[0m2021.10.18 11:30:57 INFO  Connected to Build server: Bloop v1.4.9[0m
+[0m2021.10.18 11:30:57 INFO  time: indexed workspace in 0.6s[0m
+[0m2021.10.18 11:30:57 WARN  unsupported Scala 2.12.7[0m
+[0m2021.10.18 11:30:57 INFO  compiling root-test (1 scala source)[0m
+[0m2021.10.18 11:30:58 INFO  no build target: using presentation compiler with only scala-library: 2.13.6[0m
+[0m2021.10.18 11:30:57 INFO  time: compiled root-test in 0.45s[0m
+[0m2021.10.18 11:30:58 WARN  unsupported Scala 2.12.7[0m
+Oct 18, 2021 11:30:58 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2FWork%2FProject0%2Fproject0%2Fbuild.sbt:19: error: ) expected but string constant found
+    libraryDependencies += "net.liftweb" %% "lift-json" % "3.5.0"
+                           ^
+file%3A%2F%2F%2FC%3A%2FUsers%2FWork%2FProject0%2Fproject0%2Fbuild.sbt:19: error: ) expected but string constant found
+    libraryDependencies += "net.liftweb" %% "lift-json" % "3.5.0"
+                           ^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.syntaxErrorExpected(ScalametaParser.scala:941)
+	at scala.meta.internal.parsers.ScalametaParser.accept(ScalametaParser.scala:947)
+	at scala.meta.internal.parsers.ScalametaParser.inParens(ScalametaParser.scala:785)
+	at scala.meta.internal.parsers.ScalametaParser.argumentExprsWithUsing(ScalametaParser.scala:3175)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$simpleExprRest$4(ScalametaParser.scala:3124)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$simpleExprRest$1(ScalametaParser.scala:3124)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExprRest(ScalametaParser.scala:3090)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$simpleExprRest$1(ScalametaParser.scala:3109)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExprRest(ScalametaParser.scala:3090)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$simpleExpr0$5(ScalametaParser.scala:3036)
+	at scala.util.Success.map(Try.scala:262)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$simpleExpr0$1(ScalametaParser.scala:3036)
+	at scala.meta.internal.parsers.ScalametaParser.atPosTry(ScalametaParser.scala:915)
+	at scala.meta.internal.parsers.ScalametaParser.autoPosTry(ScalametaParser.scala:925)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr0(ScalametaParser.scala:2985)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr(ScalametaParser.scala:2983)
+	at scala.meta.internal.parsers.ScalametaParser.prefixExpr(ScalametaParser.scala:2967)
+	at scala.meta.internal.parsers.ScalametaParser.postfixExpr(ScalametaParser.scala:2947)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$expr$12(ScalametaParser.scala:2514)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$expr$2(ScalametaParser.scala:2514)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:2397)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:2274)
+	at scala.meta.internal.parsers.ScalametaParser.exprMaybeIndented(ScalametaParser.scala:2302)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$patDefOrDcl$1(ScalametaParser.scala:4231)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.patDefOrDcl(ScalametaParser.scala:4217)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:4183)
+	at scala.meta.internal.parsers.ScalametaParser.nonLocalDefOrDcl(ScalametaParser.scala:4172)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$3.applyOrElse(ScalametaParser.scala:4999)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$3.applyOrElse(ScalametaParser.scala:4995)
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:5057)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$scriptSource$1(ScalametaParser.scala:5249)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.scriptSource(ScalametaParser.scala:5248)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:5238)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:5238)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:5244)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$2(ScalametaParser.scala:143)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:143)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$264.apply(ScalametaParser.scala:5308)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:51)
+
+[0m2021.10.18 11:31:32 WARN  unsupported Scala 2.12.7[0m
+Oct 18, 2021 11:31:33 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1564
+[0m2021.10.18 11:31:40 INFO  compiling root (1 scala source)[0m
+[0m2021.10.18 11:31:40 INFO  time: compiled root in 0.31s[0m
+Oct 18, 2021 11:31:44 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1587
+[0m2021.10.18 11:31:46 WARN  unsupported Scala 2.12.7[0m
+Oct 18, 2021 11:32:11 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1595
+[0m2021.10.18 11:32:15 INFO  shutting down Metals[0m
+[0m2021.10.18 11:32:15 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.10.18 11:32:15 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.10.18 11:32:29 INFO  Started: Metals version 0.10.7 in workspace 'C:\Users\Work\Project0\project0' for client Visual Studio Code 1.61.0.[0m
+[0m2021.10.18 11:32:30 INFO  time: initialize in 0.59s[0m
+[0m2021.10.18 11:32:30 INFO  Attempting to connect to the build server...[0m
+[0m2021.10.18 11:32:30 WARN  no build target for: C:\Users\Work\Project0\project0\src\main\scala\pokedex\pokedexmain.scala[0m
+[0m2021.10.18 11:32:30 INFO  skipping build import with status 'Failed'[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 34411'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:34411...
+The server is listening for incoming connections at tcp://127.0.0.1:34411...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.18 11:32:33 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Work\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.18 11:32:33 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 25470'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:25470...
+The server is listening for incoming connections at tcp://127.0.0.1:25470...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.18 11:32:33 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Work\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.18 11:32:33 INFO  time: Connected to build server in 3.34s[0m
+[0m2021.10.18 11:32:33 INFO  Connected to Build server: Bloop v1.4.9[0m
+[0m2021.10.18 11:32:34 INFO  no build target: using presentation compiler with only scala-library: 2.12.15[0m
+[0m2021.10.18 11:32:34 INFO  time: Imported build in 0.11s[0m
+[0m2021.10.18 11:32:35 INFO  no build target: using presentation compiler with only scala-library: 2.12.15[0m
+[0m2021.10.18 11:32:38 INFO  time: code lens generation in 5.1s[0m
+[0m2021.10.18 11:32:38 INFO  time: code lens generation in 6.15s[0m
+[0m2021.10.18 11:32:39 INFO  time: indexed workspace in 4.6s[0m
+[0m2021.10.18 11:32:39 INFO  compiling root (1 scala source)[0m
+[0m2021.10.18 11:32:40 INFO  no build target: using presentation compiler with only scala-library: 2.13.6[0m
+[0m2021.10.18 11:32:40 INFO  time: compiled root in 1.28s[0m
+[0m2021.10.18 11:35:08 INFO  compiling root (1 scala source)[0m
+[0m2021.10.18 11:35:08 INFO  time: compiled root in 0.4s[0m
+[0m2021.10.18 11:35:31 INFO  compiling root (1 scala source)[0m
+[0m2021.10.18 11:35:31 INFO  time: compiled root in 0.22s[0m
+[0m2021.10.18 11:35:42 WARN  unsupported Scala 2.12.7[0m
+[0m2021.10.18 11:35:42 WARN  unsupported Scala 2.12.7[0m
+Oct 18, 2021 11:35:43 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2FWork%2FProject0%2Fproject0%2Fbuild.sbt:19: error: ) expected but string constant found
+    libraryDependencies += "net.liftweb" %% "lift-json" % "3.5.0"
+                           ^
+file%3A%2F%2F%2FC%3A%2FUsers%2FWork%2FProject0%2Fproject0%2Fbuild.sbt:19: error: ) expected but string constant found
+    libraryDependencies += "net.liftweb" %% "lift-json" % "3.5.0"
+                           ^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.syntaxErrorExpected(ScalametaParser.scala:941)
+	at scala.meta.internal.parsers.ScalametaParser.accept(ScalametaParser.scala:947)
+	at scala.meta.internal.parsers.ScalametaParser.inParens(ScalametaParser.scala:785)
+	at scala.meta.internal.parsers.ScalametaParser.argumentExprsWithUsing(ScalametaParser.scala:3175)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$simpleExprRest$4(ScalametaParser.scala:3124)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$simpleExprRest$1(ScalametaParser.scala:3124)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExprRest(ScalametaParser.scala:3090)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$simpleExprRest$1(ScalametaParser.scala:3109)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExprRest(ScalametaParser.scala:3090)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$simpleExpr0$5(ScalametaParser.scala:3036)
+	at scala.util.Success.map(Try.scala:262)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$simpleExpr0$1(ScalametaParser.scala:3036)
+	at scala.meta.internal.parsers.ScalametaParser.atPosTry(ScalametaParser.scala:915)
+	at scala.meta.internal.parsers.ScalametaParser.autoPosTry(ScalametaParser.scala:925)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr0(ScalametaParser.scala:2985)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr(ScalametaParser.scala:2983)
+	at scala.meta.internal.parsers.ScalametaParser.prefixExpr(ScalametaParser.scala:2967)
+	at scala.meta.internal.parsers.ScalametaParser.postfixExpr(ScalametaParser.scala:2947)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$expr$12(ScalametaParser.scala:2514)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$expr$2(ScalametaParser.scala:2514)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:2397)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:2274)
+	at scala.meta.internal.parsers.ScalametaParser.exprMaybeIndented(ScalametaParser.scala:2302)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$patDefOrDcl$1(ScalametaParser.scala:4231)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.patDefOrDcl(ScalametaParser.scala:4217)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:4183)
+	at scala.meta.internal.parsers.ScalametaParser.nonLocalDefOrDcl(ScalametaParser.scala:4172)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$3.applyOrElse(ScalametaParser.scala:4999)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$3.applyOrElse(ScalametaParser.scala:4995)
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:5057)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$scriptSource$1(ScalametaParser.scala:5249)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.scriptSource(ScalametaParser.scala:5248)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:5238)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:5238)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:5244)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$2(ScalametaParser.scala:143)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:143)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$264.apply(ScalametaParser.scala:5308)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:51)
+
+[0m2021.10.18 11:35:43 WARN  unsupported Scala 2.12.7[0m
+[0m2021.10.18 11:35:45 WARN  unsupported Scala 2.12.7[0m
+[0m2021.10.18 11:35:56 WARN  unsupported Scala 2.12.7[0m
+[0m2021.10.18 11:35:57 WARN  unsupported Scala 2.12.7[0m
+[0m2021.10.18 11:35:57 WARN  unsupported Scala 2.12.7[0m
+[0m2021.10.18 11:35:57 WARN  unsupported Scala 2.12.7[0m
+[0m2021.10.18 11:35:57 WARN  unsupported Scala 2.12.7[0m
+[0m2021.10.18 11:35:57 WARN  unsupported Scala 2.12.7[0m
+[0m2021.10.18 11:35:57 WARN  unsupported Scala 2.12.7[0m
+[0m2021.10.18 11:35:59 INFO  running 'C:\Program Files\Java\jre1.8.0_301\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\Work\AppData\Local\Temp\metals7459883896276550785\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2021.10.18 11:36:02 INFO  [info] Loading settings for project project0-build-build from metals.sbt ...[0m
+[0m2021.10.18 11:36:02 INFO  [info] Loading project definition from C:\Users\Work\Project0\project0\project\project[0m
+[0m2021.10.18 11:36:04 INFO  [info] Loading settings for project project0-build from metals.sbt ...[0m
+[0m2021.10.18 11:36:04 INFO  [info] Loading project definition from C:\Users\Work\Project0\project0\project[0m
+[0m2021.10.18 11:36:07 INFO  [success] Generated .bloop\project0-build.json[0m
+[0m2021.10.18 11:36:07 INFO  [success] Total time: 3 s, completed Oct 18, 2021 11:36:08 AM[0m
+[0m2021.10.18 11:36:10 INFO  [info] Loading settings for project root from build.sbt ...[0m
+[0m2021.10.18 11:36:10 INFO  [info] Set current project to Pokedex (in build file:/C:/Users/Work/Project0/project0/)[0m
+[0m2021.10.18 11:36:10 INFO  [info] Updating ...[0m
+[0m2021.10.18 11:36:12 INFO  [info] downloading https://repo1.maven.org/maven2/net/liftweb/lift-json_2.13/3.5.0/lift-json_2.13-3.5.0.jar ...[0m
+[0m2021.10.18 11:36:12 INFO  [info] downloading https://repo1.maven.org/maven2/org/scala-lang/scalap/2.13.6/scalap-2.13.6.jar ...[0m
+[0m2021.10.18 11:36:12 INFO  [info] downloading https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8.jar ...[0m
+[0m2021.10.18 11:36:12 INFO  [info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/1.3.0/scala-xml_2.13-1.3.0.jar ...[0m
+[0m2021.10.18 11:36:12 INFO  [info] 	[SUCCESSFUL ] com.thoughtworks.paranamer#paranamer;2.8!paranamer.jar(bundle) (228ms)[0m
+[0m2021.10.18 11:36:12 INFO  [info] 	[SUCCESSFUL ] net.liftweb#lift-json_2.13;3.5.0!lift-json_2.13.jar (257ms)[0m
+[0m2021.10.18 11:36:12 INFO  [info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.13;1.3.0!scala-xml_2.13.jar(bundle) (287ms)[0m
+[0m2021.10.18 11:36:12 INFO  [info] 	[SUCCESSFUL ] org.scala-lang#scalap;2.13.6!scalap.jar (294ms)[0m
+[0m2021.10.18 11:36:12 INFO  [info] Done updating.[0m
+[0m2021.10.18 11:36:12 INFO  [info] downloading https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8-sources.jar ...[0m
+[0m2021.10.18 11:36:12 INFO  [info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/1.3.0/scala-xml_2.13-1.3.0-sources.jar ...[0m
+[0m2021.10.18 11:36:12 INFO  [info] downloading https://repo1.maven.org/maven2/org/scala-lang/scalap/2.13.6/scalap-2.13.6-sources.jar ...[0m
+[0m2021.10.18 11:36:12 INFO  [info] downloading https://repo1.maven.org/maven2/net/liftweb/lift-json_2.13/3.5.0/lift-json_2.13-3.5.0-sources.jar ...[0m
+[0m2021.10.18 11:36:12 INFO  [info] 	[SUCCESSFUL ] com.thoughtworks.paranamer#paranamer;2.8!paranamer.jar(src) (120ms)[0m
+[0m2021.10.18 11:36:12 INFO  [info] 	[SUCCESSFUL ] org.scala-lang#scalap;2.13.6!scalap.jar(src) (147ms)[0m
+[0m2021.10.18 11:36:12 INFO  [info] 	[SUCCESSFUL ] net.liftweb#lift-json_2.13;3.5.0!lift-json_2.13.jar(src) (163ms)[0m
+[0m2021.10.18 11:36:12 INFO  [info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.13;1.3.0!scala-xml_2.13.jar(src) (163ms)[0m
+[0m2021.10.18 11:36:12 INFO  [success] Generated .bloop\root-test.json[0m
+[0m2021.10.18 11:36:12 INFO  [success] Generated .bloop\root.json[0m
+[0m2021.10.18 11:36:12 INFO  [success] Total time: 2 s, completed Oct 18, 2021 11:36:13 AM[0m
+[0m2021.10.18 11:36:14 INFO  time: ran 'sbt bloopInstall' in 15s[0m
+[0m2021.10.18 11:36:14 INFO  Disconnecting from Bloop session...[0m
+[0m2021.10.18 11:36:14 INFO  Shut down connection with build server.[0m
+[0m2021.10.18 11:36:14 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.10.18 11:36:14 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 32674'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from 'c:\Users\Work\Project0\project0\.bloop'...
+[0m[32m[D][0m Loading project from 'c:\Users\Work\Project0\project0\.bloop\root.json'
+[0m[32m[D][0m Loading project from 'c:\Users\Work\Project0\project0\.bloop\root-test.json'
+[0m[32m[D][0m Configured SemanticDB in projects 'root', 'root-test'
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:32674...
+The server is listening for incoming connections at tcp://127.0.0.1:32674...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.18 11:36:14 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Work\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.18 11:36:14 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 22782'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:22782...
+The server is listening for incoming connections at tcp://127.0.0.1:22782...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.18 11:36:14 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Work\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.18 11:36:14 INFO  time: Connected to build server in 0.73s[0m
+[0m2021.10.18 11:36:14 INFO  Connected to Build server: Bloop v1.4.9[0m
+[0m2021.10.18 11:36:16 INFO  time: indexed workspace in 1.23s[0m
+[0m2021.10.18 11:36:16 WARN  unsupported Scala 2.12.7[0m
+[0m2021.10.18 11:36:16 INFO  compiling root (3 scala sources)[0m
+[0m2021.10.18 11:36:16 INFO  no build target: using presentation compiler with only scala-library: 2.13.6[0m
+[0m2021.10.18 11:36:16 WARN  unsupported Scala 2.12.7[0m
+[0m2021.10.18 11:36:18 WARN  2 deprecations (since 2.13.0)[0m
+[0m2021.10.18 11:36:18 WARN  2 deprecations (since 2.13.3)[0m
+[0m2021.10.18 11:36:18 WARN  4 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.10.18 11:36:18 INFO  compiling root-test (1 scala source)[0m
+[0m2021.10.18 11:36:18 INFO  time: compiled root in 2.23s[0m
+[0m2021.10.18 11:36:18 INFO  time: compiled root-test in 0.14s[0m
+[0m2021.10.18 11:39:26 INFO  compiling root (1 scala source)[0m
+[0m2021.10.18 11:39:26 INFO  time: compiled root in 0.12s[0m
+Oct 18, 2021 11:40:33 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 296
+[0m2021.10.18 11:40:47 INFO  compiling root (1 scala source)[0m
+[0m2021.10.18 11:40:49 WARN  2 deprecations (since 2.13.0)[0m
+[0m2021.10.18 11:40:49 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.10.18 11:40:49 WARN  3 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.10.18 11:40:49 INFO  time: compiled root in 2.25s[0m
+[0m2021.10.18 11:44:37 INFO  compiling root (1 scala source)[0m
+[0m2021.10.18 11:44:38 WARN  2 deprecations (since 2.13.0)[0m
+[0m2021.10.18 11:44:38 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.10.18 11:44:38 WARN  3 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.10.18 11:44:38 INFO  time: compiled root in 1.05s[0m
+[0m2021.10.18 11:45:17 INFO  compiling root (1 scala source)[0m
+[0m2021.10.18 11:45:18 WARN  2 deprecations (since 2.13.0)[0m
+[0m2021.10.18 11:45:18 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.10.18 11:45:18 WARN  3 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.10.18 11:45:18 INFO  time: compiled root in 1.06s[0m
+Oct 18, 2021 11:48:51 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 689
+[0m2021.10.18 11:48:59 WARN  unsupported Scala 2.12.7[0m
+[0m2021.10.18 11:48:59 WARN  unsupported Scala 2.12.7[0m
+[0m2021.10.18 11:49:00 INFO  running 'C:\Program Files\Java\jre1.8.0_301\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\Work\AppData\Local\Temp\metals1569655901311821562\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+Oct 18, 2021 11:49:02 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 704
+[0m2021.10.18 11:49:03 INFO  compiling root (1 scala source)[0m
+[0m2021.10.18 11:49:05 WARN  2 deprecations (since 2.13.0)[0m
+[0m2021.10.18 11:49:05 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.10.18 11:49:05 WARN  3 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.10.18 11:49:05 INFO  time: compiled root in 1.71s[0m
+[0m2021.10.18 11:49:05 INFO  [info] Loading settings for project project0-build-build from metals.sbt ...[0m
+[0m2021.10.18 11:49:05 INFO  [info] Loading project definition from C:\Users\Work\Project0\project0\project\project[0m
+[0m2021.10.18 11:49:07 INFO  [info] Loading settings for project project0-build from metals.sbt ...[0m
+[0m2021.10.18 11:49:07 INFO  [info] Loading project definition from C:\Users\Work\Project0\project0\project[0m
+[0m2021.10.18 11:49:10 INFO  [success] Generated .bloop\project0-build.json[0m
+[0m2021.10.18 11:49:10 INFO  [success] Total time: 3 s, completed Oct 18, 2021 11:49:10 AM[0m
+[0m2021.10.18 11:49:13 INFO  [info] Loading settings for project root from build.sbt ...[0m
+[0m2021.10.18 11:49:13 INFO  [info] Set current project to Pokedex (in build file:/C:/Users/Work/Project0/project0/)[0m
+[0m2021.10.18 11:49:13 INFO  [info] Updating ...[0m
+[0m2021.10.18 11:49:13 INFO  [info] Done updating.[0m
+[0m2021.10.18 11:49:13 INFO  [success] Generated .bloop\root.json[0m
+[0m2021.10.18 11:49:13 INFO  [success] Generated .bloop\root-test.json[0m
+[0m2021.10.18 11:49:13 INFO  [success] Total time: 0 s, completed Oct 18, 2021 11:49:13 AM[0m
+[0m2021.10.18 11:49:13 INFO  time: ran 'sbt bloopInstall' in 13s[0m
+[0m2021.10.18 11:49:13 INFO  Disconnecting from Bloop session...[0m
+[0m2021.10.18 11:49:13 INFO  Shut down connection with build server.[0m
+[0m2021.10.18 11:49:13 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+[0m2021.10.18 11:49:13 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 21378'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from 'c:\Users\Work\Project0\project0\.bloop'...
+[0m[32m[D][0m Loading project from 'c:\Users\Work\Project0\project0\.bloop\root.json'
+[0m[32m[D][0m Loading project from 'c:\Users\Work\Project0\project0\.bloop\root-test.json'
+[0m[32m[D][0m Configured SemanticDB in projects 'root', 'root-test'
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:21378...
+The server is listening for incoming connections at tcp://127.0.0.1:21378...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.18 11:49:14 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Work\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.18 11:49:13 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 26575'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:26575...
+The server is listening for incoming connections at tcp://127.0.0.1:26575...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.18 11:49:14 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Work\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.18 11:49:14 INFO  time: Connected to build server in 1.05s[0m
+[0m2021.10.18 11:49:14 INFO  Connected to Build server: Bloop v1.4.9[0m
+[0m2021.10.18 11:49:14 INFO  time: indexed workspace in 0.57s[0m
+[0m2021.10.18 11:49:15 WARN  unsupported Scala 2.12.7[0m
+[0m2021.10.18 11:49:15 INFO  compiling root (3 scala sources)[0m
+[0m2021.10.18 11:49:16 INFO  no build target: using presentation compiler with only scala-library: 2.13.6[0m
+[0m2021.10.18 11:49:17 WARN  2 deprecations (since 2.13.0)[0m
+[0m2021.10.18 11:49:17 WARN  2 deprecations (since 2.13.3)[0m
+[0m2021.10.18 11:49:17 WARN  4 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.10.18 11:49:17 INFO  time: compiled root in 1.72s[0m
+[0m2021.10.18 11:49:17 INFO  compiling root-test (1 scala source)[0m
+[0m2021.10.18 11:49:17 INFO  time: compiled root-test in 64ms[0m
+[0m2021.10.18 11:52:08 INFO  compiling root (1 scala source)[0m
+[0m2021.10.18 11:52:08 WARN  2 deprecations (since 2.13.0)[0m
+[0m2021.10.18 11:52:08 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.10.18 11:52:08 WARN  3 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.10.18 11:52:08 INFO  time: compiled root in 0.95s[0m
+[0m2021.10.18 11:53:58 INFO  compiling root (1 scala source)[0m
+[0m2021.10.18 11:53:58 WARN  2 deprecations (since 2.13.0)[0m
+[0m2021.10.18 11:53:58 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.10.18 11:53:58 WARN  3 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.10.18 11:53:58 INFO  time: compiled root in 0.95s[0m
+Oct 18, 2021 11:54:33 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1044
+Oct 18, 2021 11:56:22 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1068
+[0m2021.10.18 11:56:55 INFO  compiling root (1 scala source)[0m
+[0m2021.10.18 11:56:55 WARN  2 deprecations (since 2.13.0)[0m
+[0m2021.10.18 11:56:55 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.10.18 11:56:55 WARN  3 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.10.18 11:56:56 INFO  time: compiled root in 1.02s[0m
+something's wrong: no file:///C:/Users/Work/Project0/project0/src/main/scala/pokedex/pokedexmain.scala in org.mongodb.scala.Observable[org.mongodb.scala.Completed]RangePosition(file:///C:/Users/Work/Project0/project0/src/main/scala/pokedex/pokedexmain.scala, 9701, 9701, 9722)
+Oct 18, 2021 12:01:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1565
+[0m2021.10.18 12:03:13 INFO  compiling root (1 scala source)[0m
+[0m2021.10.18 12:03:14 INFO  time: compiled root in 1.21s[0m
+[0m2021.10.18 12:03:25 INFO  compiling root (1 scala source)[0m
+[0m2021.10.18 12:03:25 WARN  2 deprecations (since 2.13.0)[0m
+[0m2021.10.18 12:03:25 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.10.18 12:03:25 WARN  3 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.10.18 12:03:25 INFO  time: compiled root in 0.93s[0m
+[0m2021.10.18 12:03:34 INFO  compiling root (1 scala source)[0m
+[0m2021.10.18 12:03:34 WARN  2 deprecations (since 2.13.0)[0m
+[0m2021.10.18 12:03:34 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.10.18 12:03:34 WARN  3 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.10.18 12:03:34 INFO  time: compiled root in 0.92s[0m
+[0m2021.10.18 12:09:58 INFO  compiling root (1 scala source)[0m
+[0m2021.10.18 12:09:58 WARN  2 deprecations (since 2.13.0)[0m
+[0m2021.10.18 12:09:58 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.10.18 12:09:58 WARN  3 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.10.18 12:09:58 INFO  time: compiled root in 0.93s[0m
+[0m2021.10.18 13:56:05 INFO  compiling root (1 scala source)[0m
+[0m2021.10.18 13:56:06 WARN  2 deprecations (since 2.13.0)[0m
+[0m2021.10.18 13:56:06 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.10.18 13:56:06 WARN  3 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.10.18 13:56:06 INFO  time: compiled root in 1.07s[0m
+[0m2021.10.18 13:58:14 INFO  compiling root (1 scala source)[0m
+[0m2021.10.18 13:58:14 WARN  2 deprecations (since 2.13.0)[0m
+[0m2021.10.18 13:58:14 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.10.18 13:58:14 WARN  3 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.10.18 13:58:14 INFO  time: compiled root in 0.94s[0m
+[0m2021.10.18 14:12:18 INFO  compiling root (1 scala source)[0m
+[0m2021.10.18 14:12:20 WARN  2 deprecations (since 2.13.0)[0m
+[0m2021.10.18 14:12:20 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.10.18 14:12:20 WARN  3 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.10.18 14:12:20 INFO  time: compiled root in 1.3s[0m
+[0m2021.10.18 15:38:16 INFO  shutting down Metals[0m
+[0m2021.10.18 15:38:16 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.10.18 15:38:16 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...

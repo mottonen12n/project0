@@ -7,7 +7,7 @@
 		revision="0.1.0-SNAPSHOT"
 		conf="test-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20211015143247"/>
+		date="20211018114913"/>
 	<dependencies>
 		<module organisation="org.mongodb.scala" name="mongo-scala-driver_2.13">
 			<revision name="2.8.0" status="release" pubdate="20191211111931" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://mongodb.github.io/mongo-scala-driver" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="4">
