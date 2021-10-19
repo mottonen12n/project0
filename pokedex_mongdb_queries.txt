@@ -23,6 +23,8 @@ db.pokedex.aggregate([
 	{$project: {_id: 0}}
 ])
 
+db.pokedex.find({height: 8}) //Shows all of the pokemon with the lowest height, per gen 2 data
+
 //Total weight of caught pokemon
 
 db.pokedex.aggregate([

@@ -66,6 +66,8 @@ object Pokedex  {
                     //Find document of given pokemon name
                     collection.find(equal("name", nameToSearch))
                     .printResults()
+                    println("Press enter to return to the main menu.")
+                    val done = readLine()
                 }
                 case 2 => {
                     println("Enter Pokemon number to search: ")
@@ -75,6 +77,8 @@ object Pokedex  {
                     //Find document of given number (_id)
                     collection.find(equal("_id", numberToSearch))
                     .printResults()
+                    println("Press enter to return to the main menu.")
+                    val done = readLine()
                 }
                 case 3 => {
                     println("Enter Pokemon type to search: ")
@@ -91,6 +95,8 @@ object Pokedex  {
                                     Aggregates.count()
                                     )).printHeadResult()
                     } else println(s"Invalid type entered: $singleTypeToSearch")
+                    println("Press enter to return to the main menu.")
+                    val done = readLine()
                 }
                 case 4 => {
                     println("Enter first type to search: ")
@@ -111,6 +117,8 @@ object Pokedex  {
                                     )).printHeadResult()
                         } else println(s"Invalid type entered: $doubleTypeToSearch2")
                     } else println(s"Invalid type entered: $doubleTypeToSearch1") 
+                    println("Press enter to return to the main menu.")
+                    val done = readLine()
                 }
                 case 5 => {
                     println("Enter the name of the Pokemon that you caught: ")
@@ -123,6 +131,8 @@ object Pokedex  {
                     //Print updated document
                     collection.find(equal("name", pokemonNameToCatch))
                     .printResults()
+                    println("Press enter to return to the main menu.")
+                    val done = readLine()
                 }
                 case 6 => {
                     println("Enter the number of the Pokemon that you caught: ")
@@ -135,6 +145,8 @@ object Pokedex  {
                     //Print updated document
                     collection.find(equal("_id", pokemonNumberToCatch))
                     .printResults()
+                    println("Press enter to return to the main menu.")
+                    val done = readLine()
                 }
                 case 7 => {
                     println("Pokemon that you have caught:")
@@ -147,6 +159,8 @@ object Pokedex  {
                     collection.aggregate(Seq(Aggregates.filter(Filters.equal("caught", true)),
                                     Aggregates.count()
                                     )).printHeadResult()
+                    println("Press enter to return to the main menu.")
+                    val done = readLine()
                 }
                 case 8 => {
                     println("Here is the entire Pokedex:")
@@ -157,6 +171,8 @@ object Pokedex  {
                     .printResults()
                     //Print count of results as well
                     collection.aggregate(Seq(Aggregates.count())).printHeadResult()
+                    println("Press enter to return to the main menu.")
+                    val done = readLine()
                 }
                 case 9 => {
                     //Confirm that the whole Pokedex will be deleted (and then re-added)
